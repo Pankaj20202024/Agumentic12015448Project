@@ -1,0 +1,408 @@
+body {
+    background: linear-gradient(to right bottom, rgba(255, 217, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 20%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0.8) 70%, rgba(255, 255, 255, 0.8) 100%);
+}
+
+#NavBarSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+
+/* Nav left content container css  */
+
+#NavLeftContentContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+#NavLeftContentContainer a {
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 9%;
+    padding: 1%;
+}
+
+#NavLeftContentContainer a li {
+    list-style: none;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+
+/* Nav center content container css  */
+
+#NavCenterContentContainer {
+    width: 100%;
+}
+
+#NavCenterContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#NavCenterContent #ImageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    margin: 1%;
+}
+
+#NavCenterContent #ImageContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+
+#NavCenterContent #MainHeading {
+    color: rgb(91, 209, 255);
+    font: weight bold;
+    margin: 1%;
+    font-size: 1.3rem;
+}
+
+
+
+
+/* Nav right content container css  */
+
+#NavRightContentContainer {
+    width: 100%;
+    display: flex;
+}
+
+/* Css for search bar and search icon */
+#SearchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#SearchContainer #SearchIcon {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#SearchContainer #SearchIcon img {
+    width: 100%;
+    filter: invert(50%);
+}
+
+#SearchContainer input {
+    padding: 1%;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-left: 6%;
+    width: 90%;
+}
+
+/* css for vertical line  */
+#verticalLine {
+    background-color: grey;
+    width: 1%;
+}
+
+#CartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#CartContainer #CartImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+}
+
+#CartContainer #CartImage img {
+    width: 100%;
+    filter: invert(50%);
+}
+
+
+/* CSS FOR HOME PAGE CONTAINER  */
+
+#HomePageContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 2%;
+
+}
+
+
+/* Css for left side home container */
+
+#LeftSideHomeContainer {
+    width: 100%;
+}
+
+#HomeDetailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#HomeDetailContainer h1 {
+    font-size: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1.8%;
+    margin-bottom: 3%;
+    width: 100%;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    flex-wrap: wrap;
+}
+
+#HomeDetailContainer p {
+    font-size: 0.95rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.25rem;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1%;
+    margin-bottom: 3%;
+    width: 100%;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    flex-wrap: wrap;
+}
+
+/* Explore Button CSS  */
+
+#ExploreButtonContainer {
+    width: 100%;
+}
+
+#ExploreButtonContainer button {
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2%;
+    width: 20%;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+
+/* Rating Bar Container css  */
+#RatingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#StarImage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1%;
+}
+
+#StarImage img {
+    width: 2.5%;
+    margin: 0.5%;
+}
+
+#ratingDeatils {
+
+    font-size: 1rem;
+    margin: 1%;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+}
+
+
+/* Right Side container css  */
+#RightSideHomeContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#RightSideImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+
+#RightSideImage img {
+    width: 100%;
+}
+
+
+/* Trusted Partner Container Css */
+#TrustedPatnerContainer {
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#ContainerHeading p {
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+#ContainerSubHeading p {
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-weight: 400;
+    margin-top: 0.2%;
+    color: grey;
+}
+
+#TrustedPartnerImages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.PartnersImageConainer {
+    width: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.PartnersImageConainer img {
+    width: 100%;
+    filter: invert(50%);
+}
+
+
+/* Benifits of using our services container  */
+#BenifitsUsingOurServicesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    background: linear-gradient(to bottom, rgba(251, 243, 251, 0.8) 0%, rgba(247, 236, 245, 0.8) 20%, rgb(255, 228, 252) 50%, rgba(255, 255, 255, 0.8) 70%, rgba(255, 250, 244, 0.8) 100%);
+}
+
+/* right side benifit container css  */
+
+#LeftSideBenifitContainer {
+    width: 65%;
+    margin-left: 3%;
+}
+
+#MainHeadingContainer {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-weight: 400;
+}
+
+#SubHeadingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+    line-height: 25px;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+    font-size: 1rem;
+}
+
+
+#ExploreMoreButtonContainer {
+    width: 100%;
+}
+
+#ExploreMoreButtonContainer button {
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 2%;
+    width: 25%;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+
+
+/* right side benifit container css  */
+
+#RightSideBenifitContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1%
+}
+
+.Service {
+    border-radius: 50% 50% 5% 5%;
+    margin: 1%;
+    background-color: white;
+    background: linear-gradient(to right bottom, rgba(254, 246, 231, 0.8) 0%, rgba(254, 246, 226, 0.8) 20%, rgb(255, 255, 255) 50%, rgba(253, 242, 255, 0.8) 70%, rgba(255, 241, 255, 0.8) 100%);
+}
+
+.ServicesIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.ServicesIcon img {
+    width: 25%;
+}
+
+.ServiceName {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    font-size: 1.3rem;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+}
+
+.ServiceDetails {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 3%;
+    color: grey;
+    line-height: 25px;
+    font-size: 1rem;
+    font-family: var(--font-face, "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif);
+}
+
+
+footer {
+    margin-top: 5%;
+}

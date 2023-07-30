@@ -1,0 +1,10 @@
+#login_link {
+    color: #54B4D3
+}
+
+.Information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
