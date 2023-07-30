@@ -1,4 +1,4 @@
-Sing In Page Link :  https://agumentikwebapp.000webhostapp.com/register.php
+Sing Up Page Link :  https://agumentikwebapp.000webhostapp.com/register.php
 
 <img width="531" alt="Screenshot 2023-07-31 022458" src="https://github.com/Pankaj20202024/Agumentic12015448Project/assets/121535589/9490e757-00d4-4429-bc89-077fdbb1b828">
 
